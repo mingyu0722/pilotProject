@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class TestController {
+public class MainController {
 
     @RequestMapping("/")
     public ModelAndView test() throws Exception {

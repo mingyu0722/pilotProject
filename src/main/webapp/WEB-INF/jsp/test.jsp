@@ -6,5 +6,6 @@
 <body>
     <h2>This is test page.</h2>
     <p> ${hello} </p>
+    <p>test</p>
 </body>
 </html>

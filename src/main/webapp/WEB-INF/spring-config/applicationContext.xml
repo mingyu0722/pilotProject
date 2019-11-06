@@ -13,9 +13,9 @@
     <!-- DataSource Set -->
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-        <property name="url" value="jdbc:mysql://127.0.0.1:3306/board?useSSL=false" />
-        <property name="username" value="root" />
-        <property name="password" value="@clsrn7027" />
+        <property name="url" value="jdbc:mysql://18.223.10.80:3306/pilot_project?useSSL=false" />
+        <property name="username" value="pilotProject" />
+        <property name="password" value="1234" />
     </bean>
 
     <!-- SqlSessionFactory 설정 : dataSource를 참조, mybatis-config.xml 경로 설정 -->

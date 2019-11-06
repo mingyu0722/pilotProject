@@ -4,7 +4,7 @@
 <mapper namespace="kr.co.blockcom.mapper.boardFreeMapper">
     <select id="selectListAll" resultType="hashMap">
         SELECT  *
-        FROM    board.board_free
+        FROM    pilot_project.member
         ;
     </select>
 </mapper>
